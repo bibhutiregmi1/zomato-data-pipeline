@@ -1,0 +1,33 @@
+[0m20:05:18.195376 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11b9e1e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11ba4a850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11ba6a690>]}
+
+
+============================== 20:05:18.198410 | a8083246-15a9-4752-b140-0787405ba507 ==============================
+[0m20:05:18.198410 [info ] [MainThread]: Running with dbt=1.11.15
+[0m20:05:18.198783 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'profiles_dir': '/Users/bibhutiregmi/.dbt', 'indirect_selection': 'eager', 'printer_width': '80', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'partial_parse': 'True', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'fail_fast': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'empty': 'None', 'write_json': 'True', 'use_colors': 'True', 'quiet': 'False', 'use_experimental_parser': 'False', 'no_print': 'None', 'invocation_command': 'dbt init zomato', 'log_format': 'default', 'log_cache_events': 'False', 'version_check': 'True', 'debug': 'False'}
+[0m20:05:18.209548 [debug] [MainThread]: Starter project path: /Users/bibhutiregmi/Documents/code/zomato-data-pipeline/.venv/lib/python3.11/site-packages/dbt/include/starter_project
+[0m20:05:18.215029 [info ] [MainThread]: 
+Your new dbt project "zomato" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:05:18.215227 [info ] [MainThread]: Setting up your profile.
+[0m20:05:28.331602 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m20:05:28.331956 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m20:05:28.332130 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m20:12:37.578870 [info ] [MainThread]: Profile zomato written to /Users/bibhutiregmi/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m20:12:37.619593 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 439.47263, "process_in_blocks": "0", "process_kernel_time": 0.234269, "process_mem_max_rss": "125059072", "process_out_blocks": "0", "process_user_time": 0.91568}
+[0m20:12:37.622126 [debug] [MainThread]: Command `dbt init` succeeded at 20:12:37.621955 after 439.48 seconds
+[0m20:12:37.622949 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d2e610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d2e5d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11b67e8d0>]}
+[0m20:12:37.623561 [debug] [MainThread]: Flushing usage events
+[0m20:12:40.177572 [debug] [MainThread]: An error was encountered while trying to flush usage events
